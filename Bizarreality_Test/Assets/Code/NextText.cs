@@ -18,7 +18,7 @@ public class NextText : MonoBehaviour
     {
         _text.text = "Using the WASD keys, move the player with rb.Addforce.";
         yield return new WaitForSeconds(5);
-        _text.text = "Click the spawn cube button with your mouse to spawn the CUBE.";
+        _text.text = "Click the Spawn Cube button with your mouse to spawn the CUBE.";
     }
     IEnumerator NextLine2()
     {
